@@ -52,7 +52,7 @@ ul li{
     display: inline-block;
     padding: 0px 20px;
 }
-a{
+ul li a{
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(122, 143, 129);
@@ -77,7 +77,10 @@ div.card{
     padding-bottom: 15px;
 }
 
-
+div.card a{
+    text-decoration: none;
+    color: rgb(153, 164, 173);
+}
 img.mango{
     padding: 25px;
     height: 100%;
@@ -91,56 +94,146 @@ div.mix{
 div.nac{
     padding: 15px;
 }
+.card-group p{
+    text-align: center;
+}
 
 div.seccion-destacados{
     align-items: center;
     padding: 25px;
+    background-color: rgb(244, 249, 249);
+    margin-bottom: 15px;
 }
 div.titulo-destacados{
-    color: rgb(82, 77, 72);
+    color: rgb(131, 99, 66);
     align-items: center;
     display: flex;
     justify-content: center;
+}
+.seccion-destacados button{
+    background-color: rgb(13, 150, 22);
+    border-style: none;
+    border-radius: 5px;
+    max-height: 100px;
+    color: azure;
+    padding: 5px;
 }
 
 img.poster{
     width: 75%;
     padding: 25px
 }
+/* Estilo para la seccion de contacto previa */
 
+.contacto {
+    background-color: rgb(129, 164, 48);
+    align-items: center;
+    height: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
 
+.contacto h3{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 75px;
+    color: aliceblue;
+    text-shadow: 150cm;
+}
+.contacto p{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: larger;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    
+}
+.button{
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    color: aliceblue;
+    background-color: rgba(249, 218, 107, 0.636);
+}
 
 footer.pie-pagina{
     background-color: rgb(232, 239, 142);
-    padding: 25px;
+    padding: 15px;
     align-items: center;
+    
 }
 .pie1{
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .img-footer{
     padding: 0;
     width: 50%;
     height: 50%;
+    margin-bottom: 25px;
 }
-.social{
+.social h2{
     align-items: center;
     justify-content: center;
+    font-size: large;
+    color: rgb(92, 84, 56);
+    margin-bottom: 25px;
 }
 
-.footer-social{
-    align-items: center;
-    justify-content: center;
-    display: block;
+
+.design p{
+    text-align: center;
+    padding: 15px;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+.rapidos a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(132, 136, 136);
+    
+}
+.rapidos h3{
+    text-align: left;
+    color: rgb(92, 84, 56);
+}
+.lateral{
+    background-color: rgb(219, 227, 96);
+    position: fixed;
+    width: 100%;
+    max-width: 80px;
+    right: 0%;
+    border-radius: 15px;
+    
+    
+}
+.lateral img{
+    width: 100%;
+    padding: 15px;
+    
+}
+
+/*Diseño de formulario CSSS */
+
+.mb-3{
+    display: flex;
+    padding: 15px;
     justify-content: space-between;
+    color: rgb(111, 112, 113);
+    margin-bottom: 15px;
 }
 
-.design{
-    align-items: center;
-    justify-content: center;
+.form-control{
+    max-width: 75%;
+    
+}
+
+.button-enViar{
+    border-radius: 5px;
+    background-color: rgb(43, 109, 68);
+    border-style: none;
     padding: 15px;
 }
-
-
