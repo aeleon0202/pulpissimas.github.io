@@ -41,6 +41,7 @@ div.menu2{
     padding: 20px;
 }
 
+
 ul{
     display: flex;
     align-items: center;
@@ -241,3 +242,31 @@ footer.pie-pagina{
     border-style: none;
     padding: 15px;
 }
+
+
+/*diseño responsive*/
+
+.seccion-video{
+    background-color: rgb(34, 130, 57);
+    margin-top: 25px;
+    border-radius: 6px;
+    max-height: 300px;
+    
+}
+.seccion-video p{
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 25px;
+}
+.seccion-video img{
+    width: 50px;
+    margin-left: 500px;
+}
+
+
+@media screen and (max-width: 790px) {
+    .seccion-video img{
+        margin-left: 250px;
+    }
+} 
